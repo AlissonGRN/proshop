@@ -1,0 +1,23 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlissonGRN/proshop.git"
+  },
+  "author": "Alisson Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlissonGRN/proshop/issues"
+  },
+  "homepage": "https://github.com/AlissonGRN/proshop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
