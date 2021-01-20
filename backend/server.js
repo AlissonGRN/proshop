@@ -19,7 +19,7 @@ app.get("/api/products/:id", (req, res) => {
   res.json(product)
 })
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 5000
 
 app.listen(
   PORT,
